@@ -25,7 +25,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server
-    await client.connect();
+    // await client.connect();
     console.log("Connected to MongoDB!");
 
     const db = client.db("mernJobPortal");
